@@ -9,10 +9,10 @@ using namespace std;
 
 int profitableGamble(float prob, int prize, float pay) {
     if(prob * prize > pay ) {
-        cout << "true";
-    }else{
-        cout << "false";
+        return 1;
     }
+ 
+	   return 0;
 }
 
 int main() {
